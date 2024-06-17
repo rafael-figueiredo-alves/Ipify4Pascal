@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Ipify4Pascal - Demo - Delphi'
+  ClientHeight = 480
+  ClientWidth = 340
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object BtnGetIPv4: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 70.000000000000000000
+    Position.Y = 17.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Get my IPv4'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 14.000000000000000000
+    OnClick = BtnGetIPv4Click
+  end
+  object BtnGetIPv6: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 70.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Get my IPv6'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 14.000000000000000000
+    OnClick = BtnGetIPv6Click
+  end
+  object BtnGeIpifyVersion: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 70.000000000000000000
+    Position.Y = 233.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Get Ipify4Pascal'#39's version'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 14.000000000000000000
+    OnClick = BtnGeIpifyVersionClick
+  end
+  object lbIPv4: TLabel
+    StyledSettings = [Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 71.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.HorzAlign = Center
+    TabOrder = 6
+  end
+  object lbIPv6: TLabel
+    StyledSettings = [Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 183.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.HorzAlign = Center
+    TabOrder = 5
+  end
+  object lbIpifyVersion: TLabel
+    StyledSettings = [Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 295.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.HorzAlign = Center
+    TabOrder = 4
+  end
+end
