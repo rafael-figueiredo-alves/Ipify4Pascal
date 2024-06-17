@@ -1,2 +1,2 @@
 # Ipify4Pascal
- An unoficcial Pascal library (Delphi and Lazarus) for Ipify.org
+ An unofficial Pascal library (Delphi and Lazarus) for Ipify.org
