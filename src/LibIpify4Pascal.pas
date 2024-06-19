@@ -8,9 +8,8 @@ interface
 
 uses
      {$IFDEF FPC}
-      idHTTP,
-      IdSSLOpenSSL,
-      IdSSLOpenSSLHeaders;
+      fphttpclient, 
+      opensslsockets;
      {$else}
       Net.HttpClient;
      {$endif}
@@ -30,7 +29,7 @@ type
   //Concrete class to implement the interface
   TIpify4Pascal = class(TInterfacedObject, iIpify4Pascal)
       //Version of the lib
-      const _Version = '1.0.0';
+      const _Version = '1.0.1';
 
       //IP4 URL
       const GetIPv4URL = 'https://api.ipify.org';
@@ -39,8 +38,7 @@ type
       const GetIPv6URL = 'https://api6.ipify.org';
     private
       {$IFDEF FPC}
-        HttpClient : TIdHTTP;
-        FIdSSLIOHandlerSocketOpenSSL : TIdSSLIOHandlerSocketOpenSSL;
+        HttpClient : TFPHTTPClient;
       {$else}
         HttpClient : THttpClient;
       {$endif}
@@ -82,14 +80,7 @@ end;
 constructor TIpify4Pascal.Create;
 begin
   {$IFDEF FPC}
-   HttpClient := TIdHTTP.Create(nil);
-   HttpClient.Request.Connection := 'Keep-Alive';
-   HttpClient.Request.UserAgent := 'User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36';
-   HttpClient.HandleRedirects := true;
-   FIdSSLIOHandlerSocketOpenSSL := TIdSSLIOHandlerSocketOpenSSL.Create;
-   HttpClient.IOHandler := FIdSSLIOHandlerSocketOpenSSL;
-   FIdSSLIOHandlerSocketOpenSSL.SSLOptions.SSLVersions := [sslvTLSv1, sslvTLSv1_1, sslvTLSv1_2];
-   HttpClient.HTTPOptions:= [hoKeepOrigProtocol];
+   HttpClient := TFPHTTPClient.Create(nil);
   {$else}
    HttpClient := THTTPClient.Create;
   {$endif}
@@ -98,9 +89,6 @@ end;
 destructor TIpify4Pascal.Destroy;
 begin
   FreeAndNil(HttpClient);
-  {$IFDEF FPC}
-  FreeAndNil(FIdSSLIOHandlerSocketOpenSSL);
-  {$endif}
   inherited;
 end;
 
@@ -116,15 +104,13 @@ begin
   try
     FStreamResult := TStringStream.Create;
     {$IFDEF FPC}
-     HttpClient.Get(tidURI.URLEncode(GetIPv4URL), FStreamResult);
+     HttpClient.Get(URL, FStreamResult);
     {$else}
      HttpClient.Get(URL, FStreamResult);
     {$endif}
     Result := FStreamResult.DataString;
   finally
-    {$IFDEF FPC}
-    FreeAndNil(FStreamResult);
-    {$endif}
+     FreeAndNil(FStreamResult);
   end;
 end;
 

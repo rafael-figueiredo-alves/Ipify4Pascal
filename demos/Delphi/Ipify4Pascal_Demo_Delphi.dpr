@@ -3,8 +3,7 @@ program Ipify4Pascal_Demo_Delphi;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  UnitMain in 'UnitMain.pas' {Form1},
-  LibIpify4Pascal in '..\..\src\LibIpify4Pascal.pas';
+  UnitMain in 'UnitMain.pas' {Form1};
 
 {$R *.res}
 

@@ -31,7 +31,7 @@ implementation
 
 {$R *.fmx}
 
-uses LibIpify4Pascal;
+Uses LibIpify4Pascal;
 
 procedure TForm1.BtnGeIpifyVersionClick(Sender: TObject);
 begin

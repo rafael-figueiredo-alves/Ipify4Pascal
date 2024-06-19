@@ -1,0 +1,11 @@
+{
+	"name": "Ipify4Pascal_Demo_Delphi",
+	"description": "Demo da lib Ipify4Pascal",
+	"version": "1.0.1",
+	"homepage": "https://github.com/rafael-figueiredo-alves/Ipify4Pascal",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"https://github.com/rafael-figueiredo-alves/ipify4pascal": "^v1.0.1"
+	}
+}

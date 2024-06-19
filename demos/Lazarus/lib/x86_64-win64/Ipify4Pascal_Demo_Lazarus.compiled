@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1449427374"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -WG -l -vewnhibq -FiC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\lib\x86_64-win64 -FuC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\modules\.dcp -FuC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\modules\.dcu -FuC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\modules -FuC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\modules\ipify4pascal\demos\Delphi -FuC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\modules\ipify4pascal\src -FuC:\lazarus\Indy-master\Lib\lib\x86_64-win64 -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\freetype\lib\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 -FuC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\ -FUC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\lib\x86_64-win64\ -FEC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\ -oC:\MeusProjetos\Ipify4Pascal\demos\Lazarus\Ipify4Pascal_Demo_Lazarus.exe -dLCL -dLCLwin32 Ipify4Pascal_Demo_Lazarus.lpr"/>
+</CONFIG>
