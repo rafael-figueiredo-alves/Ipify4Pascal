@@ -21,20 +21,18 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="unitMain"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
         <CursorPos X="21" Y="43"/>
         <UsageCount Value="23"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="26"/>
         <CursorPos Y="156"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\Indy-master\Lib\System\IdBaseComponent.pas"/>
@@ -51,127 +49,10 @@
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="87" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="88" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="89" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="90" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="91" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="92" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="96" TopLine="77"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="83" TopLine="77"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="96" TopLine="77"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="156" TopLine="145"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="80" TopLine="69"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="119" TopLine="105"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="85" TopLine="74"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="117" TopLine="106"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="119" TopLine="106"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="126" TopLine="107"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="117" TopLine="107"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="120" Column="17" TopLine="107"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="41" Column="11" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="117" TopLine="106"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="91" Column="4" TopLine="82"/>
-      </Position>
-      <Position>
-        <Filename Value="unitmain.pas"/>
-        <Caret Line="42" TopLine="31"/>
-      </Position>
-      <Position>
-        <Filename Value="unitmain.pas"/>
-        <Caret Line="43" Column="36" TopLine="31"/>
-      </Position>
-      <Position>
-        <Filename Value="unitmain.pas"/>
-        <Caret Line="54" Column="23" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="unitmain.pas"/>
-        <Caret Line="41" Column="48" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="unitmain.pas"/>
-        <Caret Line="43" Column="21" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="88" Column="16" TopLine="73"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="85" TopLine="74"/>
-      </Position>
-      <Position>
-        <Filename Value="modules\ipify4pascal\src\LibIpify4Pascal.pas"/>
-        <Caret Line="108" Column="17" TopLine="89"/>
-      </Position>
-    </JumpHistory>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
